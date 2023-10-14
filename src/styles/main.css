@@ -1,0 +1,57 @@
+*, *::before, *::after  {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Fakt Pro;
+    src: url(../../assets/fonts/FaktPro-Normal.ttf)format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Fakt Pro;
+    font-size: 1.1rem;
+    max-width: 720px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding: 10px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jump a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topnav ul {
+    list-style: none;
+    padding: 0;
+}
+.topnav li {
+    float: left;
+    padding-right: 16px;
+}
+
+.mail a {
+    color: grey;
+    text-decoration: underline;
+}
+
+.content p, h3{
+    padding: 8px;
+    line-height: 160%;
+}
+
+.content h3 {
+    padding-top: 8px; 
+    padding-bottom: 8px;
+}
